@@ -1,4 +1,4 @@
-FROM linuxserver/netbootxyz:latest
+FROM ghcr.io/netbootxyz/netbootxyz
 
 # Install dnsmasq to play DHCP server
 RUN apk add --update dnsmasq
